@@ -1,0 +1,27 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    height: 100vh;
+}
+h1{
+    font-family: Arial, sans-serif;
+}
+form p {
+    justify-content: left;
+}
+div{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    height: 100vh;
+}

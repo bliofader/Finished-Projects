@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>CONVERSOR DE MOEDAS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="comv.css">
+    </head>
+    <body>
+        <div class="converter-container">
+        <form id="converterForm">
+            <div class="form-group">
+                <label for="amount">Valor</label>
+                <input type="number" id="amount" name="amount" placeholder="Valor a ser convertido" required>
+            </div>
+            <div class="form-group">
+                <label for="fromCurrency">De (moeda)</label>
+                <select id="fromCurrency" name="fromCurrency" required></select>
+            </div>
+            <div class="form-group">
+                <label for="toCurrency">Para (moeda)</label>
+                <select id="toCurrency" name="toCurrency" required></select>
+            </div>
+            <button type="submit">Converter</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="comv.js"></script>
+    </body>
+</html>
